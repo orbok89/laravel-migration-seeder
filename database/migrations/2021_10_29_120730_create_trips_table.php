@@ -17,7 +17,7 @@ class CreateTripsTable extends Migration
             $table->id();
             $table->string('destination');
             $table->smallInteger('prezzo');
-            $table->string('star_hotel');
+            $table->smallInteger('star_hotel');
             $table->smallInteger('notti');
             $table->timestamps();
         });
